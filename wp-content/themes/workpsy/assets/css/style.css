@@ -1,0 +1,941 @@
+html, body {
+	font-size: 16px;
+	font-family: 'Mulish', sans-serif;
+}
+ 
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 540px) {
+		html {
+		font-size: 16px;
+		font-family: 'Mulish', sans-serif;
+	}
+
+	body{
+		font-size: 1rem;
+	}
+
+}
+
+a {
+	color: #000000;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #3CB301;
+}
+
+@media (min-width: 992px) {
+	.navbar-expand-lg .navbar-nav .nav-link {
+	    padding-right: 1.5rem;
+	    padding-left: 1.5rem;
+	}
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #000000;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	text-decoration: none;
+	color: #3CB301;
+}
+
+.navbar-light .navbar-nav .current_page_item .nav-link {
+	color:  #3CB301;
+}
+
+.white {
+	color: #FFFFFF;
+}
+
+.green {
+	color: #005900;
+}
+
+p {
+	font-family: 'Mulish', sans-serif;
+	line-height: 2.5rem;
+}
+
+footer {
+	background-color: #005900;
+	color: #FFFFFF;
+}
+
+footer h5 {
+	color:#7BD2AE;
+	font-size: 13px;
+}
+
+footer a {
+	color: #FFFFFF;
+}
+
+footer a:hover {
+	color:#7BD2AE;
+}
+
+footer li {
+	font-size: 14px;
+}
+
+footer input[type="submit"] {
+	font-size:15px;
+	height: 35px;
+}
+
+nav li {
+	font-size: 1.2rem;
+}
+
+.grey {
+	background-color: #F6F8F9;
+}
+
+.d-background {
+	background-color: #EEF3F9;
+}
+
+.l-background {
+	background: url(../img/l-bg.svg) no-repeat;
+	background-position: center right;
+}
+
+.bg-graphic {
+	background: #EEF3F9 url(../img/d-bg.svg) no-repeat;
+	background-position: center left;
+}
+
+#services-banner {
+    background: linear-gradient( rgb(0,0,0, 0.75), rgb(0,0,0, 0.75) ), url(../img/services.png) center/cover;
+    margin-bottom: 0;
+}
+
+/*#services-banner h1 {
+	font-weight: 600;
+}*/
+
+
+
+#main-banner{
+	background: linear-gradient(
+		rgb(0,0,0, 0.75),
+	 	rgb(0,0,0, 0.75)
+	 	),
+	url(../img/banner.png) center/cover;
+	color: #FFFFFF;
+ 
+	margin-bottom: 0;
+}
+
+#get-in-touch {
+	background: linear-gradient(
+		rgb(0,0,0, 0.75),
+	 	rgb(0,0,0, 0.75)
+	 	),
+	url(../img/journey.png) center/cover;
+	color: #FFFFFF;
+	padding: 5vw 0; 
+	margin-bottom: 0;
+}
+
+#we-offer {
+	color: #3CB301;
+}
+
+#social-links-director {
+	color: #005900;
+}
+
+#social-links-director-2 {
+	color: #005900;
+}
+
+
+#meet-director {
+	background-color:#F6F8F9;
+	padding-bottom: 3vh;
+	padding-top: 5vh;
+	}
+
+#meet-director-title h3 {
+	color: #B6E800;
+}
+
+@media screen and (max-width: 767px) {
+
+		#meet-director-title h3 {
+		color: #005900;
+	}
+
+}
+
+@media screen and (max-width: 768px) and (min-width:550px) {
+
+
+.offset-sm-2a {
+		margin-left: 16.666667%;
+	}
+}
+
+
+.heading-white {
+	color: #005900;
+}
+
+.black {
+	color: #05051770;
+
+}
+
+.vertical-center {
+  min-height: 50%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 50vh; /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+}
+
+.vertical-center-2 {
+  min-height: 25%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 25vh; /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+}
+
+.secondary-banner {
+	min-height: 50%;  /* Fallback for browsers do NOT support vh unit */
+ 	 min-height: 50vh;
+ 	 display: flex;
+  	align-items: center;
+  	color: #FFF;
+} 
+
+.card-body {
+	color: #000000;
+}
+
+.card-padding {
+	padding: 5% 3%;
+}
+
+.carousel-item h5 {
+	color: ;
+}
+
+.cardi p {
+	display: block;
+	width: 100%
+}
+.cardi{
+	border-radius: 4px;
+	transition: 0.4s ease-out;
+	box-shadow: 0px 7px 10px rgba(black, 0.5);
+	color: #FFFFFF;
+}
+
+	
+.cardi:hover{
+	transform: translateY(20px);
+}
+
+.cardi h2{
+	color: #FFFFFF;
+	position: absolute;
+    top: 30%;
+    left: 10%;
+    font-weight: 400;
+}
+
+#main-banner h1 {
+	color: #FFFFFF;
+}
+
+#main-banner h4 {
+	color: #FFFFFF;
+	font-weight: 400;
+}
+
+#training , #coaching, #consultancy , #psychometrics {
+	padding-top: 5vw;
+	padding-bottom: 5vw;
+}
+
+#consultancy-mobile, #training-mobile{
+	display: none;
+}
+
+
+
+@media screen and (max-width: 540px){
+
+	#consultancy-mobile, #training-mobile{
+		display: block;
+		padding-top: 5vw;
+		padding-bottom: 5vw;
+	}
+
+	#consultancy-mobile img, #training-mobile img{
+		max-width: 100%;
+	}
+
+	#consultancy, #training{
+		display: none;
+	}
+
+}
+
+#training img {
+	max-width: 100%;
+}
+
+#coaching img {
+	max-width: 100%;
+}
+
+#consultancy img {
+	max-width: 100%;
+}
+
+#psychometrics img {
+	max-width: 100%;
+}
+
+ul.green-check li {
+	list-style: none;
+	background: url(../img/green-check.svg) left top no-repeat;
+	box-sizing: border-box;
+	padding-left: 30px;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+	line-height: 1.6rem;
+	
+}
+.cardi-2{
+		border-radius: 4px;
+		box-shadow: 0px 7px 10px rgba(black, 0.5);
+		color: #FFFFFF;
+		perspective: 1000px;
+		border-radius: 2px;
+		position: relative;
+		width: 100%;
+		height:306px;
+		background-color: transparent;
+
+	}
+
+.cardi-2 img {
+	border-radius: 4px;
+}
+
+.cardi-2 h2 {
+	color: #fff;
+	top: 39%;
+    position: absolute;
+    left: 22%;
+
+}
+
+.cardi-2 h2.goal {
+	color: #fff;
+	top: 39%;
+    position: absolute;
+    left: 30%;
+
+}
+.cardi-2 h2.about {
+	color: #fff;
+	top: 39%;
+    position: absolute;
+    left: 23%;
+
+}
+
+#card-block {
+	height: 350px;
+	width: 100%;
+}
+
+@media screen and (max-width: 740px){
+
+	 #card-block {
+	height: 1050px;
+	width: 100%;
+	}
+
+	.cardi-2 h2 {
+	color: #fff;
+	top: 39%;
+    position: absolute;
+    left: 36%;
+
+	}
+
+	.cardi-2 h2.about {
+	color: #fff;
+	top: 39%;
+    position: absolute;
+    left: 23%;
+
+	}
+
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.cardi-2:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+
+/* Style the back side */
+.flip-card-back {
+  background-color: #285C28;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card-back p {
+	top: 25%;
+    position: absolute;
+    padding: 5%;
+}
+
+@media screen and (max-width: 768px ){
+		.cardi h2{
+		font-size: 1.3rem;
+	}
+} 
+
+@media screen and (max-width: 550px ){
+		.cardi h2{
+		font-size: 2rem;
+	}
+} 
+
+
+/*.cardi:hover::before{
+			opacity: 1;
+
+}*/
+		
+/*.cardi:hover .info{
+	opacity: 1;
+	transform: translateY(0px);
+}
+
+.cardi::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 4px;
+	background: rgba(0,0,0,0.6);
+	z-index: 2;
+	transition: 0.5s;
+	opacity: 0;
+}*/
+
+.cardi img {
+	width: 100%;
+	border-radius: 4px;
+}
+
+ img.arrow-button {
+	width: 48px;
+	position: absolute;
+	bottom: 25%;
+	left: 60px;
+}
+
+@media screen and (max-width: 1160px){
+		img.arrow-button {
+		width: 48px;
+		position: absolute;
+		bottom: 15%;
+		left: 60px;
+	}
+
+}
+
+
+@media screen and (max-width: 965px){
+	 img.arrow-button {
+	 	display:none;
+	 }
+
+}
+
+@media screen and (max-width: 765px){
+	img.arrow-button {
+		display: block;
+		width: 48px;
+		position: absolute;
+		bottom: 70px;
+		left: 60px;
+}
+
+}
+
+
+.button {
+	display: inline-block;
+    font-weight: 400;
+	background: #3CB301;
+	color: #FFFFFF;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    /*padding: .375rem .75rem;*/
+    padding: .7rem 1.2rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s;
+}
+
+#services-button {
+		margin: 4vw 0;
+	}
+
+.button:hover {
+	background-color: #FFFFFF;
+	border-color: #3CB301;
+	color: #3CB301;
+}
+
+.info{
+	position: relative;
+	z-index: 3;
+	color: white;
+	opacity: 0;
+	transform: translateY(30px);
+	transition: 0.5s;
+}
+
+.quote-header {
+	background-color: transparent;
+	border-bottom: none;
+	color: #005300;
+	font-weight: 700;
+}
+
+.quote-img {
+	position: absolute;
+	left: 50px;
+
+}
+
+@media screen and (max-width: 540px) {
+		.quote-img {
+		position: static;
+	}
+}
+
+.card {
+	border: none;
+}
+
+.darkened-image { 
+            filter: brightness(50%);
+            }		
+
+#services-blurb {
+	/*background-image: url("../img/services-bg.png");*/
+	background: #548E68;
+	color: #FFFFFF;
+	padding: 5vw 0;
+}
+
+#about-banner {
+	background-color: #005900;
+	margin-bottom: 0;
+}
+
+@media screen and (max-width: 540px) {
+
+	#about-banner p.lead {
+		font-size: 1em;
+	}
+
+}
+
+#about-blurb {
+	background: #C1E0CC;
+	padding-bottom: 3%;
+	padding-top: 3%;
+}
+#about-inner {
+		background: #FFFFFF;
+		padding: 5% 3%;
+}
+
+#about-inner img {
+	max-width: 100%;
+
+}
+
+#about-inner h2{
+	color: #005900;
+
+}
+
+#about-inner h5{
+	color: #3CB301;
+}
+
+.meet-personnel-title {
+		max-width: 100%;
+		background-color: #005900;
+		border-radius: 5px;
+		color: #FFFFFF;
+		align-self: flex-start;
+	  	transform: translate(0%,-71%);
+	  	z-index: 56;
+	}
+
+.meet-personnel-title p {
+	color: #B6E800;
+	font-weight: bold;
+	margin-bottom: 0px;
+
+}
+
+.expand-link {
+	color: #005900;
+	text-decoration: underline;
+}
+
+.collapse h2 {
+	color: #009900;
+}
+
+.contact-us {
+	background-color: #FFF;
+	padding: 5% 3%;
+	margin-top: 5vh;
+}
+
+.contact-us h3 {
+	color: #3CB301;
+}
+
+.contact-us p {
+	font-size: 16px;
+	color: #050517;
+}
+
+#contact-details{
+	padding: 5vh 0;
+	font-size: 16px;
+}
+#contact-details h5 {
+	font-size: 16px;
+	font-weight: 800;
+	color: #005900;
+}
+
+#contact-header {
+	color: #005900;
+	padding-top: 5vh; 
+}
+
+#contact-form input[type="text"] {
+	background-color: #FAFAFA;
+	font-size: 14px;
+	border: none;
+	color: #050517; 
+	height: 50px;
+}
+
+#contact-form input[type="email"] {
+	background-color: #FAFAFA;
+	font-size: 14px;
+	border: none;
+	color: #050517;
+	height: 50px;
+}
+
+#contact-form input::placeholder {
+	color: #050517;	
+}
+
+#contact-form textarea::placeholder {
+	color: #050517;	
+}
+
+#contact-form input[type="checkbox"] {
+	width: 14px;
+	height: 14px;
+	border: 2px solid #98B6B1;
+	box-sizing: border-box;
+	border-radius: 3px;
+}
+
+#contact-form textarea {
+	background-color: #FAFAFA;
+	font-size: 14px; 
+	border: none;
+}
+
+#contact-form label {
+	font-size: 14px; 
+}
+
+.email-button {
+	color: #fff; 
+	background: #7BD2AE;
+	border-radius: 5px;
+	border: none;
+}
+
+.signup-email {
+	border: 1px solid #7BD2AE;
+	box-sizing: border-box;
+	border-radius: 5px;
+	background-color: #fff;
+
+}
+
+#email-contact img {
+		position: relative;
+		top: -20;
+}
+
+#email-contact p {
+		font-size: 16px;
+		margin-bottom: 0px;
+}
+
+#phone-contact img {
+		position: relative;
+		top: -12;
+}
+
+.d-background ul, .l-background ul {
+	padding-inline-start: 0px;
+}
+
+
+@media screen and (max-width:540px){
+	#email-contact img {
+		width: 50px;
+		position: relative;
+		top: -12;
+	}
+
+	#email-contact p {
+		font-size: 13px;
+		margin-bottom: 0px;
+	}
+
+	#phone-contact img {
+		height:50px;
+		position: relative;
+		top: -12;
+	}
+}
+
+#quotes {
+	box-shadow: 4px 0px 23px 4px rgba(0, 0, 0, 0.04);
+}
+
+.signup-email input[type="email"]{
+	border: none;
+	padding-left: 15px;
+	font-size: 12px;
+	color: #333333;
+}
+
+.carousel-indicators li {
+	width: 16px;
+	height: 16px;
+	border: 2px solid #005900;
+	box-sizing: border-box;
+	border-radius: 50%;
+}
+
+.carousel-indicators li.active{
+	width: 16px;
+	height: 16px;
+	border: 2px solid #005900;
+	box-sizing: border-box;
+	border-radius: 50%;
+	background-color: #005900;
+}
+
+.carousel-inner{
+	padding-bottom: 3%;
+}
+
+footer p {
+	font-size:14px;
+}
+
+
+
+@media (max-width: 768px) and (min-width: 766px)  {
+
+		#meet-director-title {
+	    background-color: #005900;
+	    border-radius: 5px;
+	    color: #FFFFFF;
+	    align-self: flex-start;
+	    transform: translateX(24%);
+	    z-index: 56;
+	}
+}
+
+@media (min-width: 769px) {
+
+	.cardi{
+		border-radius: 4px;
+		transition: 0.4s ease-out;
+		box-shadow: 0px 7px 10px rgba(black, 0.5);
+		color: #FFFFFF;
+
+	}
+
+	.vertical-center {
+	  min-height: 80%;  /* Fallback for browsers do NOT support vh unit */
+	  min-height: 80vh; /* These two lines are counted as one :-)       */
+
+	  display: flex;
+	  align-items: center;
+	}
+
+	.vertical-center-2 {
+	  min-height: 35%;  /* Fallback for browsers do NOT support vh unit */
+	  min-height: 35vh; /* These two lines are counted as one :-)       */
+
+	  display: flex;
+	  align-items: center;
+	}
+
+	.secondary-banner {
+	 min-height: 60%;  /* Fallback for browsers do NOT support vh unit */
+ 	 min-height: 60vh;
+  	 align-items: center;
+} 
+
+	#quotes {
+		color: #6F5E5B;
+		align-self: flex-start;
+	  	transform: translateY(-27%);
+	  	z-index: 56;
+	}
+
+	#meet-director {
+	background-color:#F6F8F9;
+	padding-bottom: 3vh;
+	padding-top: 5vh;
+	}
+
+	#meet-director-title {
+		background-color: #005900;
+		border-radius: 5px;
+		color: #FFFFFF;
+		align-self: flex-start;
+	  	transform: translateX(-20%);
+	  	z-index: 56;
+	}
+
+	#director-card {
+		margin-bottom: 15vw;
+	}
+
+	.director-card {
+		margin-bottom: 2vw;
+	}
+
+	.meet-personnel-title {
+	max-width: 350px;
+		background-color: #005900;
+		border-radius: 5px;
+		color: #FFFFFF;
+		align-self: flex-start;
+	  	transform: translate(13%,-71%);
+	  	z-index: 56;
+	  }
+
+	.button {
+	display: inline-block;
+    font-weight: 400;
+	background: #3CB301;
+	color: #FFFFFF;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .7rem 1.2rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 2px;
+    max-width: 250px;
+    transition: color .15s;
+	}
+
+	#services-blurb {
+		margin-bottom: 4vw;
+
+	}
+
+	#hero-button {
+		margin-top: 4vw;
+	}
+
+	#services-button {
+		margin: 4vw 0;
+	}
+
+
+	#social-links-director {
+		margin-top: 4vw;
+	}
+
+}
+
+@media screen and (max-width: 540px) {
+
+	.secondary-banner {
+		min-height: 25%;  /* Fallback for browsers do NOT support vh unit */
+ 	 	min-height: 25vh;
+
+	}
+	
+} 
